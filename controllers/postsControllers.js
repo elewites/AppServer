@@ -1,9 +1,6 @@
 //Database Model Import
 const PostModel = require("../models/postModel.js");
 
-//middleware
-const { validateToken } = require("../middlewares/authMiddleware");
-
 //controller used to find all posts
 const getPosts = async (req, res) => {
   const listOfPosts = await PostModel.find();

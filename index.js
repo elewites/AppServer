@@ -19,9 +19,12 @@ app.use("/comments", commentsRouter);
 const userRouter = require("./routes/usersRoute");
 app.use("/users", userRouter);
 
+const likesRouter = require("./routes/likesRoute");
+app.use("/likes", likesRouter);
+
 //Database connection
 const CONNECTION_URI =
-  "mongodb+srv://eros:eros@cluster0.hipkz.mongodb.net/App?retryWrites=true&w=majority";
+  "mongodb+srv://eros:eros@cluster0.hipkz.mongodb.net/Cluster0?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 3001;
 
 mongoose

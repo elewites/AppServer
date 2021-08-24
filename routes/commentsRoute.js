@@ -13,7 +13,7 @@ const {
   deleteComment,
 } = require("../controllers/commentsController");
 
-//route to get a comment assigned to a specific post
+//route to get a comment which is assigned to a specific post
 router.get("/getcomments/:postId", getComment);
 
 //route to create a comment and assign in to a post
