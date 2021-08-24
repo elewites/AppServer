@@ -1,6 +1,6 @@
 //Database model import
 const UserModel = require("../models/userModel");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { sign } = require("jsonwebtoken");
 
 //controller used to create user
