@@ -27,6 +27,7 @@ const createPost = async (req, res) => {
     title: title,
     content: content,
     username: username,
+    likes: [],
   });
   await newPost.save();
   res.json(newPost);

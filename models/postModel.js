@@ -8,7 +8,8 @@ const postSchema = mongoose.Schema({
   //a post can have many comments
   //that is why we assign a configuration array
   //does this relation need to exist?
-  comment: [{ type: mongoose.Schema.Types.ObjectId, ref: "comment" }],
+  comments: [{ type: mongoose.Schema.Types.ObjectId, ref: "comment" }],
+  likes: [{ type: mongoose.Schema.Types.ObjectId, ref: "like" }],
 });
 
 const PostModel = mongoose.model("post", postSchema);
