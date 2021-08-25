@@ -5,9 +5,9 @@ const LikeModel = require("../models/likeModel");
 const likePost = async (req, res) => {
   const { id } = req.user;
   const { postId } = req.body;
-  const findLike = LikeModel.findOne({ postId, userId: id });
+  const found = await LikeModel.findOne({ postId, userId: id });
 
-  if (!findLike) {
+  if (!found) {
     const newLike = new LikeModel({ postId, userId: id });
     await newLike.save();
     res.json(newLike);
