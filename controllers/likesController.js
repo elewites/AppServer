@@ -20,7 +20,9 @@ const likePost = async (req, res) => {
     findPost.likes.push(newLike._id);
     await findPost.save();
 
-    res.json(newLike);
+    //will use this object to determine if post should...
+    //be liked or unliked in the frontend
+    res.json({ liked: true });
     //
   } else {
     //if findLike is not empty, we remove a like from the array of the post
@@ -30,7 +32,9 @@ const likePost = async (req, res) => {
     //we also delete the like from the likes collection
     await LikeModel.findOneAndDelete({ postId, userId: id });
 
-    res.json("Post Unliked");
+    //will use this object to determine if post should...
+    //be liked or unliked in the frontend
+    res.json({ liked: false });
   }
 };
 
