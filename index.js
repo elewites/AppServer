@@ -24,7 +24,7 @@ app.use("/likes", likesRouter);
 
 //Database connection
 const CONNECTION_URI =
-  "mongodb+srv://eros:eros@cluster0.hipkz.mongodb.net/App?retryWrites=true&w=majority";
+  "mongodb+srv://eros:better_together@cluster0.exjg5.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 3001;
 
 mongoose
@@ -34,4 +34,8 @@ mongoose
   })
   .then(() =>
     app.listen(PORT, () => console.log(`Server is running on port ${PORT}`))
+  ).catch(error => {
+    console.log(error);
+    app.listen(PORT, () => console.log('connected to server but not to db'));
+  }
   );
