@@ -13,7 +13,7 @@ This server is built with the following technologies:
 ## Purpose/Learning Goals
 
 1. Create a Social Media API to gain valuable experience in developing full-stack applications and implementing RESTful APIs.
-2. Gain experience developing with cloud dtabase, MongoDB in this case and the object data modeling library Mongoose.
+2. Gain experience developing with cloud databases, MongoDB in this case and the object data modeling library Mongoose.
 3. Design an authentication system for user registration and login, utilizing JSON Web Tokens and bcryptjs to hash and salt passwords. 
 
 
