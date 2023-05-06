@@ -4,10 +4,15 @@ Social media API
 This server is built with the following technologies:
 
 Node.js
+
 Express.js
+
 MongoDB
+
 Mongoose ODM
+
 jsonwebtoken 
+
 bcryptjs
 
 ## Purpose/Learning Goals
