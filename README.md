@@ -3,7 +3,7 @@ Social media API
 
 ## Installation
 
-The server is noy currently deployed but you clone and run it in your local machine. 
+The server is not currently deployed but you clone and run it in your local machine. 
 
 The server connects to a cloud-based MongoDB cluster but if you wish to use the code with your own cluster you must change
 the `database_URI` variable in the `server.js` file.
