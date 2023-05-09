@@ -35,6 +35,7 @@ should output `Server is running on port 3001`
 - If it does not connect to the database it will output on command line `connected to server but not to db`
 
 Once the server is running, clone the client side repository [ChatAppClient](https://github.com/elewites/ChatAppClient.git). 
+- Checkout the client side repository for detail instructions on running the frontend application locally.
 
 Install the the packages in client side with `npm install`
 
