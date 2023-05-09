@@ -1,6 +1,9 @@
 # AppServer
 Social media API
 
+The server is currently deployed with heroku here (link)[link]. 
+- If you want to run the server locally checkout the instructions below
+
 This server is built with the following technologies:
 
 - Node.js
@@ -19,15 +22,17 @@ This server is built with the following technologies:
 
 ## Installation
 
-The server is not currently deployed but you clone and run it in your local machine. 
+The server is currently but you clone and run it in your local machine. 
 
 The server connects to one my cloud clusters MongoDB but if you wish to use the code with your own cluster you must change
 the `database_URI` variable in the `server.js` file.
+- Yet you should be able to run the server locally and use my MongoDB cluster. 
 
 Once you clone the repo run `npm install` on the main directory
 
-Then run the following command to spin up the server `nodemon server.js` and if it runs succesfully the command line
+Then run the following command to spin up the server `nodemon index.js` and if it runs succesfully and connects to the database 
 should output `Server is running on port 3001`
+- If it does not connect to the database it will output on command line `connected to server but not to db`
 
 Once the server is running, clone the client side repository [ChatAppClient](https://github.com/elewites/ChatAppClient.git). 
 
