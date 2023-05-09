@@ -1,7 +1,7 @@
 # AppServer
 Social media API
 
-The server is currently deployed with heroku (here)[https://social-api.herokuapp.com/]. 
+The server is currently deployed with heroku [here][https://social-api.herokuapp.com/]. 
 - If you want to run the server locally checkout the instructions below
 
 This server is built with the following technologies:
