@@ -22,7 +22,7 @@ This server is built with the following technologies:
 
 ## Installation
 
-The server is currently but you clone and run it in your local machine. 
+The server is currently deployed but you clone and run it in your local machine. 
 
 The server connects to one my cloud clusters MongoDB but if you wish to use the code with your own cluster you must change
 the `database_URI` variable in the `server.js` file.
