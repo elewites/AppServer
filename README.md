@@ -25,7 +25,7 @@ This server is built with the following technologies:
 The server is currently deployed but you clone and run it in your local machine. 
 
 The server connects to one my cloud clusters MongoDB but if you wish to use the code with your own cluster you must change
-the `database_URI` variable in the `server.js` file.
+the `database_URI` variable in the `index.js` file.
 - Yet you should be able to run the server locally and use my MongoDB cluster. 
 
 Once you clone the repo run `npm install` on the main directory
