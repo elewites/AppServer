@@ -34,7 +34,7 @@ Then run the following command to spin up the server `nodemon index.js` and if i
 should output `Server is running on port 3001`
 - If it does not connect to the database it will output on command line `connected to server but not to db`
 
-Once the server is running, clone the client side repository [ChatAppClient](https://github.com/elewites/ChatAppClient.git). 
+Once the server is running, clone the client side repository [AppClient](https://github.com/elewites/AppClient.git). 
 - Checkout the client side repository for detail instructions on running the frontend application locally.
 
 But in short, you need to: 
